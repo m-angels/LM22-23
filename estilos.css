@@ -1,7 +1,7 @@
 /* 
-* Version 0
-* Last update: 2023/01/23
-* Author: 
+* Version 0.2
+* Last update: 2023/01/26
+* Author: 1ºASIX Simarro
 * Contact: 
 */
 
@@ -9,3 +9,125 @@
 *  ÍNDICE DEL CSS
 *  0.0 - 
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg);
+}
+
+/**Pre-Loader de la página (¡NO ALTERAR!) [Consultar con Sergi] **/
+
+#loader {
+    position: fixed;
+    margin-top: -5rem;
+    margin-left: -0.6rem;
+    width: 84.31rem;
+    height: 40.5rem;
+    z-index: 999;
+    overflow: visible;
+    background: rgb(70, 68, 73) url('./Multimedia/preloader.gif') no-repeat center center;
+}
+
+/**Tamaño que ocupa el contenedor global visualmente / También es parte crítica del Pre-Loader**/
+
+#wrapper {
+    width: 95%;
+    margin: 0px auto;
+}
+
+/**Fondo que se usa para la cabecera**/
+
+#Cabecera {
+    background: url(********);
+}
+
+/**Modificacion de tamaño y forma y espaciado de la cabecera**/
+
+h1 {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 200px;
+    color: rgb(255, 255, 255);
+    border-bottom: 10px solid white;
+    font-size: 50px;
+    font: oblique bold 700% cursive;
+}
+
+/**MENU**/
+
+#menu {
+    background-color: #000;
+
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: white;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    background-color: #42B881;
+}
+
+.item-r {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    background: white;
+}
+
+/**Estructura de contenidos general para los articulos**/
+
+#contenido {
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: white;
+    padding: 40px;
+}
+
+/**Seleciones de tamano de los articulos**/
+
+.article {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+/**Tamano aplicado para la imagen**/
+
+aside {
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background-color: white;
+    object-fit: contain;
+    padding-bottom: 80px;
+}
+
+/**Quitar la decoracion de los titulos de los articulos**/
+
+.enlace {
+    text-decoration: none;
+    color: black;
+}
+
+/******/
