@@ -21,3 +21,23 @@ document.addEventListener("DOMContentLoaded", function() {
     loader = document.getElementById('loader');
     loadNow(2);
 });
+
+
+//  Validaciones del formulario
+
+var = document.getElementById("nom").value;
+if (valor == null || valor.length == 0 || /^\s+$/.test(valor) )
+{
+    alert("Error, el campo debe contener un nombre.")
+    return false;
+}
+
+var = document.getElementById("correu").value;
+if( !(/\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)/.test(valor)) ) {
+  return false;
+}
+
+var = document.getElementById("telefon").value;
+if( !(/^\d{9}$/.test(valor)) ) {
+  return false;
+}
